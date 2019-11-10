@@ -23,8 +23,9 @@ public class BubbleSortDemo extends BaseSort {
         if (checkArr(a)) {
             return a;
         }
+        //有序边界,有序边界之后的值全部已经有序,不需要比较交换
         int sortBorder = a.length - 1;
-        for (int i = 0; i <  a.length - 1; i++) {
+        for (int i = 0; i < a.length - 1; i++) {
             //排序标记
             boolean flag = true;
             int lastPosition = 0;
@@ -33,6 +34,7 @@ public class BubbleSortDemo extends BaseSort {
                     a[j] ^= a[j + 1];
                     a[j + 1] ^= a[j];
                     a[j] ^= a[j + 1];
+                    //存在交换,未全部有序
                     flag = false;
                     //记录最后一次交换位置
                     lastPosition = j;
