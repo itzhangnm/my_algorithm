@@ -23,16 +23,24 @@ public class BubbleSortDemo extends BaseSort {
         if (checkArr(a)) {
             return a;
         }
-        for (int i = 0; i < a.length; i++) {
+        int sortBorder = a.length - 1;
+        for (int i = 0; i <  a.length - 1; i++) {
+            //排序标记
             boolean flag = true;
-            for (int j = 0; j < a.length - i - 1; j++) {
+            int lastPosition = 0;
+            for (int j = 0; j < sortBorder; j++) {
                 if (a[j] > a[j + 1]) {
                     a[j] ^= a[j + 1];
                     a[j + 1] ^= a[j];
                     a[j] ^= a[j + 1];
                     flag = false;
+                    //记录最后一次交换位置
+                    lastPosition = j;
                 }
             }
+            //最后一次交换位置即为有序边界
+            sortBorder = lastPosition;
+            //无排序交换证明已经有序
             if (flag) {
                 return a;
             }
