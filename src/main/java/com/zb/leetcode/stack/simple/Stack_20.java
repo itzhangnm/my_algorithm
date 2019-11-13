@@ -18,31 +18,22 @@ public class Stack_20 {
      * 注意空字符串可被认为是有效字符串。
      */
     public boolean isValid(String s) {
-        if (s.length() == 0) {
-            return true;
-        }
-        Stack<String> stack = new Stack<>();
-        String[] arr = s.split("");
-        for (String a : arr) {
-            if ("(".equals(a) || "{".equals(a) || "[".equals(a)) {
-                stack.push(a);
-            } else if (")".equals(a) || "}".equals(a) || "]".equals(a)) {
-                if (stack.empty() || !check(stack.pop(), a)) {
-                    return false;
-                }
+        Stack<Character> stack = new Stack<>();
+        for (char c : s.toCharArray()) {
+            if (stack.empty()) {
+                stack.push(c);
+            } else if (check(stack.peek(), c)) {
+                //括号匹配,将左括号弹出栈
+                stack.pop();
+            }else{
+                stack.push(c);
             }
         }
+        //完全匹配,栈一定为空
         return stack.empty();
     }
 
-    private boolean check(String ls, String rs) {
-        if ("{".equals(ls) && "}".equals(rs)) {
-            return true;
-        } else if ("[".equals(ls) && "]".equals(rs)) {
-            return true;
-        } else if ("(".equals(ls) && ")".equals(rs)) {
-            return true;
-        }
-        return false;
+    private boolean check(char lc, char rc) {
+        return '(' == lc && ')' == rc || '[' == lc && ']' == rc || '{' == lc && '}' == rc;
     }
 }
