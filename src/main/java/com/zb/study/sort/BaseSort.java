@@ -1,11 +1,7 @@
-package com.zb.sort;
-
-import lombok.extern.slf4j.Slf4j;
+package com.zb.study.sort;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /***

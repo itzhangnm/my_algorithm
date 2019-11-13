@@ -1,4 +1,4 @@
-package com.zb.sort;
+package com.zb.study.sort;
 
 /***
  * 冒泡排序
