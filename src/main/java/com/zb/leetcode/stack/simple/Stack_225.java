@@ -1,8 +1,7 @@
 package com.zb.leetcode.stack.simple;
 
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
 
 /**
  * @author Zhang Bo
@@ -24,12 +23,24 @@ public class Stack_225 {
 
     */
 
+    public static void main(String[] args) {
+        MyStack stack = new MyStack();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        while (!stack.empty()) {
+            System.out.println(stack.pop());
+        }
+    }
+
     static class MyStack {
 
-        private List<Integer> data;
+        private LinkedList<Integer> data;
 
         public MyStack() {
-            data = new ArrayList<>();
+            data = new LinkedList<>();
+
         }
 
         public void push(int x) {
@@ -37,15 +48,30 @@ public class Stack_225 {
         }
 
         public int pop() {
-            return data.remove(data.size() - 1);
+            LinkedList<Integer> temp = new LinkedList<>();
+            Integer pop = 0;
+            while (data.size() > 1) {
+                pop = data.poll();
+                temp.add(pop);
+            }
+            pop = data.poll();
+            data = temp;
+            return pop;
         }
 
         public int top() {
-            return data.get(data.size() - 1);
+            LinkedList<Integer> temp = new LinkedList<>();
+            Integer pop = 0;
+            while (!data.isEmpty()) {
+                pop = data.poll();
+                temp.add(pop);
+            }
+            data = temp;
+            return pop;
         }
 
         public boolean empty() {
-            return data.size() == 0;
+            return data.isEmpty();
         }
     }
 
