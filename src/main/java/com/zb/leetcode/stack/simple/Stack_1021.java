@@ -72,7 +72,7 @@ public class Stack_1021 {
             //左右一定对称
             if (stack.isEmpty()) {
                 //去除最外层括号即截取开始位置加一到右括号对应位置
-                result.append(S.substring(start + 1, index));
+                result.append(S, start + 1, index);
                 //更新起始位置
                 start = index + 1;
             }
