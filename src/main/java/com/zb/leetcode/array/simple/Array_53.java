@@ -42,6 +42,7 @@ public class Array_53 {
                 tmp += nums[i];
                 //每次累加判断最大
                 sum = tmp > sum ? tmp : sum;
+
             }else {
                 //负数,取当前值即可,前面累加最大值已有记录
                 tmp = nums[i];
