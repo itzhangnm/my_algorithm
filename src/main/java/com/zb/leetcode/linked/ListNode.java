@@ -1,7 +1,7 @@
 package com.zb.leetcode.linked;
 
 /***
- * TODO
+ *
  * @author once
  * @date 2019/12/1 11:10
  *

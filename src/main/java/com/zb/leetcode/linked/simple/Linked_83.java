@@ -3,7 +3,7 @@ package com.zb.leetcode.linked.simple;
 import com.zb.leetcode.linked.ListNode;
 
 /***
- * TODO
+ *
  * @author once
  * @date 2019/12/1 11:23
  *
