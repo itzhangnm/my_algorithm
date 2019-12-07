@@ -32,12 +32,17 @@ public class Array_268 {
         System.out.println(array_268.missingNumber(new int[]{9,6,4,2,3,5,7,0,1}));
     }
     public int missingNumber(int[] nums) {
-        int sum = nums.length;
-        int tmp = 0;
+        //求和存在溢出
+//        int tmp = nums.length;
+//        for (int i = 0; i < nums.length; i++) {
+//            tmp = tmp + i - nums[i];
+//        }
+//        return  tmp;
+        //异或方法
+        int tmp = nums.length;
         for (int i = 0; i < nums.length; i++) {
-            tmp += nums[i];
-            sum += i;
+            tmp ^= i ^ nums[i];
         }
-        return sum - tmp;
+        return tmp;
     }
 }
