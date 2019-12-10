@@ -41,4 +41,16 @@ public class Linked_206 {
         }
         return reverseHead;
     }
+
+    public ListNode recursive(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode reverseNode = recursive(head.next);
+        //next.next 其实就是head.next的下一个指针指向自己，就是反转了
+        head.next.next = head;
+        head.next = null;
+        return reverseNode;
+    }
 }
