@@ -8,12 +8,12 @@ public class MergeSortDemo extends BaseSort {
 
     public static void main(String[] args) {
         MergeSortDemo merge = new MergeSortDemo();
-        int[] arr = generateArr(10);
-        printArr(arr);
+        int[] arr = generateArr(10000);
+//        printArr(arr);
         long startTime = System.currentTimeMillis();
         int[] newArr = merge.mergeSort(arr);
         System.out.println("time:" + (System.currentTimeMillis() - startTime));
-        printArr(newArr);
+//        printArr(newArr);
     }
 
     private int[] mergeSort(int[] arr) {

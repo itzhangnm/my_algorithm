@@ -8,12 +8,12 @@ public class SelectSortDemo extends BaseSort {
 
     public static void main(String[] args) {
         SelectSortDemo select = new SelectSortDemo();
-        int[] arr = generateArr(10);
-        printArr(arr);
+        int[] arr = generateArr(10000);
+//        printArr(arr);
         long startTime = System.currentTimeMillis();
         int[] newArr = select.selectSort(arr);
         System.out.println("time:" + (System.currentTimeMillis() - startTime));
-        printArr(newArr);
+//        printArr(newArr);
     }
 
     private int[] selectSort(int[] arr) {
