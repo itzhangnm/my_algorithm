@@ -10,9 +10,11 @@ public class BubbleSortDemo extends BaseSort {
 
     public static void main(String[] args) {
         BubbleSortDemo bubble = new BubbleSortDemo();
-        int[] arr = generateArr(10);
+        int[] arr = generateArr(1000);
         printArr(arr);
+        long startTime = System.currentTimeMillis();
         int[] newArr = bubble.bubbleSort(arr);
+        System.out.println("time:" + (System.currentTimeMillis() - startTime));
         printArr(newArr);
     }
 
