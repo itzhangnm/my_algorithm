@@ -7,12 +7,12 @@ package com.zb.study.sort;
 public class QuickSortDemo extends BaseSort {
     public static void main(String[] args) {
         QuickSortDemo quick = new QuickSortDemo();
-        int[] arr = generateArr(10);
-        printArr(arr);
+        int[] arr = generateArr(1000000);
+//        printArr(arr);
         long startTime = System.currentTimeMillis();
         int[] newArr = quick.quickSort(arr);
         System.out.println("time:" + (System.currentTimeMillis() - startTime));
-        printArr(newArr);
+//        printArr(newArr);
     }
 
     public int[] quickSort(int[] arr) {
@@ -20,7 +20,7 @@ public class QuickSortDemo extends BaseSort {
         return arr;
     }
 
-    private void quickSort(int[] arr, int l, int r) {
+    public void quickSort(int[] arr, int l, int r) {
         if (l >= r) {
             return;
         }
