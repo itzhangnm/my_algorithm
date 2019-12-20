@@ -42,9 +42,17 @@ public class Array_717 {
     }
 
     public boolean isOneBitCharacter(int[] bits) {
-        if (bits[bits.length - 1] != 0) {
-            return false;
+        int index = 0;
+        boolean flag = true;
+        while (index < bits.length) {
+            if (bits[index] == 1) {
+                flag = false;
+                index++;
+            }else{
+                flag = true;
+            }
+            index++;
         }
-
+        return flag;
     }
 }
