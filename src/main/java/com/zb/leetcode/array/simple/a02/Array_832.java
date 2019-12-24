@@ -1,5 +1,7 @@
 package com.zb.leetcode.array.simple.a02;
 
+import com.alibaba.fastjson.JSON;
+
 /**
  * @author Zhang Bo
  * @date 2019/12/23 19:26
@@ -36,17 +38,17 @@ public class Array_832 {
      */
     public static void main(String[] args) {
         Array_832 array_832 = new Array_832();
-        System.out.println(array_832.flipAndInvertImage(new int[][]{
+        System.out.println(JSON.toJSONString(array_832.flipAndInvertImage(new int[][]{
                 {1,1,0},
                 {1,0,1},
                 {0,0,0}
-        }));
-        System.out.println(array_832.flipAndInvertImage(new int[][]{
+        })));
+        System.out.println(JSON.toJSONString(array_832.flipAndInvertImage(new int[][]{
                 {1,1,0,0},
                 {1,0,0,1},
                 {0,1,1,1},
                 {1,0,1,0}
-        }));
+        })));
     }
 
     public int[][] flipAndInvertImage(int[][] A) {
