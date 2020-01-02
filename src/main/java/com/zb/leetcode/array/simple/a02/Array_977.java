@@ -57,7 +57,7 @@ public class Array_977 {
                 if (A[j] <= A[i] * A[i]) {
                     result[k] = A[j--];
                 }else{
-                    result[k] = A[i] * A[i++];;
+                    result[k] = A[i] * A[i++];
                 }
             }
         }
