@@ -1,4 +1,4 @@
-package com.zb.leetcode.array.simple;
+package com.zb.leetcode.array.simple.a03;
 
 /**
  * @author Zhang Bo
