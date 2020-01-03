@@ -1,9 +1,7 @@
 package com.zb.leetcode.array.simple.a03;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * 查找常用字符
@@ -46,41 +44,68 @@ public class Array_1002 {
     }
 
     public List<String> commonChars(String[] A) {
-        Map<Character, Map<Integer, Integer>> map = new HashMap<>();
+        int[] r = new int[26];
+        for (int i = 0; i < r.length; i++) {
+            r[i] = 101;
+        }
+        int[] tmp;
         for (int i = 0; i < A.length; i++) {
+            tmp = new int[26];
             char[] chars = A[i].toCharArray();
             for (int j = 0; j < chars.length; j++) {
-                Map<Integer, Integer> subMap;
-                if (map.get(chars[j]) != null) {
-                    subMap= map.get(chars[j]);
-                    if (subMap.get(i) != null) {
-                        subMap.put(i, subMap.get(i) + 1);
-                    }else{
-                        subMap.put(i, 1);
-                    }
-                }else{
-                    subMap = new HashMap<>();
-                    subMap.put(i, 1);
-                }
-                map.put(chars[j], subMap);
+                tmp[chars[j] - 97]+=1;
+            }
+            for (int j = 0; j < r.length; j++) {
+                r[j] = r[j] <= tmp[j] ? r[j] : tmp[j];
             }
         }
         List<String> result = new ArrayList<>();
-        for (Character key : map.keySet()) {
-            if (map.get(key).size() == A.length) {
-                Map<Integer, Integer> subMap = map.get(key);
-                int min = Integer.MAX_VALUE;
-                for (Integer val : subMap.values()) {
-                    if (val < min) {
-                        min = val;
-                    }
-                }
-                while (min > 0) {
-                    result.add(key + "");
-                    min--;
-                }
+        for (int i = 0; i < r.length; i++) {
+            int count = r[i];
+            while (count > 0) {
+                result.add((char) (i + 97) + "");
+                count--;
             }
         }
         return result;
     }
+
+    //    public List<String> commonChars(String[] A) {
+//        Map<Character, Map<Integer, Integer>> map = new HashMap<>();
+//        for (int i = 0; i < A.length; i++) {
+//            char[] chars = A[i].toCharArray();
+//            for (int j = 0; j < chars.length; j++) {
+//                Map<Integer, Integer> subMap;
+//                if (map.get(chars[j]) != null) {
+//                    subMap= map.get(chars[j]);
+//                    if (subMap.get(i) != null) {
+//                        subMap.put(i, subMap.get(i) + 1);
+//                    }else{
+//                        subMap.put(i, 1);
+//                    }
+//                }else{
+//                    subMap = new HashMap<>();
+//                    subMap.put(i, 1);
+//                }
+//                map.put(chars[j], subMap);
+//            }
+//        }
+//        List<String> result = new ArrayList<>();
+//        for (Character key : map.keySet()) {
+//            if (map.get(key).size() == A.length) {
+//                Map<Integer, Integer> subMap = map.get(key);
+//                int min = Integer.MAX_VALUE;
+//                for (Integer val : subMap.values()) {
+//                    if (val < min) {
+//                        min = val;
+//                    }
+//                }
+//                while (min > 0) {
+//                    result.add(key + "");
+//                    min--;
+//                }
+//            }
+//        }
+//        return result;
+//    }
 }
