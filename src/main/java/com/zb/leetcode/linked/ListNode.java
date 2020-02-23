@@ -1,11 +1,14 @@
 package com.zb.leetcode.linked;
 
+import lombok.Data;
+
 /***
  *
  * @author once
  * @date 2019/12/1 11:10
  *
  */
+@Data
 public class ListNode {
     public int val;
 
