@@ -1,10 +1,11 @@
-package com.zb.leetcode.array.simple.a01;
+package com.zb.leetcode.simple._100;
 
 /**
+ * 	26 删除排序数组中的重复项
  * @author Zhang Bo
  * @date 2019/11/19 10:52
  */
-public class Array_26 {
+public class LeetCode_026 {
 
     /**
      * 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
@@ -48,9 +49,9 @@ public class Array_26 {
      */
 
     public static void main(String[] args) {
-        Array_26 array_26 = new Array_26();
-        System.out.println(array_26.removeDuplicates(new int[]{1,1,2}));
-        System.out.println(array_26.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+        LeetCode_026 leetCode026 = new LeetCode_026();
+        System.out.println(leetCode026.removeDuplicates(new int[]{1,1,2}));
+        System.out.println(leetCode026.removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
     }
 
     public int removeDuplicates(int[] nums) {

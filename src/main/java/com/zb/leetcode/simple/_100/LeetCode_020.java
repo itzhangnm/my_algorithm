@@ -1,12 +1,13 @@
-package com.zb.leetcode.stack.simple;
+package com.zb.leetcode.simple._100;
 
 import java.util.Stack;
 
 /**
+ * 20 有效的括号
  * @author Zhang Bo
  * @date 2019/11/13 16:06
  */
-public class Stack_20 {
+public class LeetCode_020 {
 
     /**
      * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。

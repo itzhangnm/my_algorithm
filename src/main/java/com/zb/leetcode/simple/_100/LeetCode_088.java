@@ -1,12 +1,13 @@
-package com.zb.leetcode.array.simple.a01;
+package com.zb.leetcode.simple._100;
 
 import java.util.Arrays;
 
 /**
+ * 	88 合并两个有序数组
  * @author Zhang Bo
  * @date 2019/11/19 14:38
  */
-public class Array_88 {
+public class LeetCode_088 {
 
     /**
      * 给定两个有序整数数组 nums1 和 nums2，将 nums2 合并到 nums1 中，使得 num1 成为一个有序数组。
@@ -32,12 +33,12 @@ public class Array_88 {
      1
      */
     public static void main(String[] args) {
-        Array_88 array_88 = new Array_88();
+        LeetCode_088 leetCode088 = new LeetCode_088();
         int[] nums1 = new int[]{1, 2, 3, 0, 0, 0};
         int m = 3;
         int[] nums2  = new int[]{2,5,6};
         int n = 3;
-        array_88.merge(nums1, m, nums2, n);
+        leetCode088.merge(nums1, m, nums2, n);
         System.out.println(Arrays.toString(nums1));
     }
 

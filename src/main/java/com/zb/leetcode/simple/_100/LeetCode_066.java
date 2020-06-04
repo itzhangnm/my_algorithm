@@ -1,12 +1,13 @@
-package com.zb.leetcode.array.simple.a01;
+package com.zb.leetcode.simple._100;
 
 import java.util.Arrays;
 
 /**
+ * 66 加一
  * @author Zhang Bo
  * @date 2019/11/19 13:58
  */
-public class Array_66 {
+public class LeetCode_066 {
     /**
      * 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
      * <p>
@@ -31,8 +32,8 @@ public class Array_66 {
      */
 
     public static void main(String[] args) {
-        Array_66 array_66 = new Array_66();
-        System.out.println(Arrays.toString(array_66.plusOne(new int[]{9})));
+        LeetCode_066 leetCode066 = new LeetCode_066();
+        System.out.println(Arrays.toString(leetCode066.plusOne(new int[]{9})));
 
     }
 
