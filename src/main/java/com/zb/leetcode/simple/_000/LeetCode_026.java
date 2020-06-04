@@ -1,4 +1,4 @@
-package com.zb.leetcode.simple._100;
+package com.zb.leetcode.simple._000;
 
 /**
  * 	26 删除排序数组中的重复项

@@ -1,4 +1,4 @@
-package com.zb.leetcode.simple._100;
+package com.zb.leetcode.simple._000;
 
 /**
  * 38. 外观数列

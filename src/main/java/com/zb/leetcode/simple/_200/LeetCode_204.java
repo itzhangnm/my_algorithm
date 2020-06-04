@@ -1,4 +1,4 @@
-package com.zb.leetcode.simple._300;
+package com.zb.leetcode.simple._200;
 
 /**
  * 204. 计数质数

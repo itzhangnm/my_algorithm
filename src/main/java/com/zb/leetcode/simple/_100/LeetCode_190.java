@@ -1,4 +1,4 @@
-package com.zb.leetcode.simple._200;
+package com.zb.leetcode.simple._100;
 
 /**
  * 190. 颠倒二进制位

@@ -1,4 +1,4 @@
-package com.zb.leetcode.simple._200;
+package com.zb.leetcode.simple._100;
 
 /**
  * 136. 只出现一次的数字

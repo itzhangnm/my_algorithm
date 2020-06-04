@@ -1,4 +1,4 @@
-package com.zb.leetcode.simple._200;
+package com.zb.leetcode.simple._100;
 
 /**
  * 191. 位1的个数
