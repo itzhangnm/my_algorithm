@@ -1,13 +1,14 @@
-package com.zb.leetcode.array.simple.a01;
+package com.zb.leetcode.simple._000;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 1. 两数之和
  * @author Zhang Bo
  * @date 2019/11/19 10:25
  */
-public class Array_1 {
+public class LeetCode_001 {
 
     /**
      * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。

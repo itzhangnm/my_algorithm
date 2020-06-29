@@ -1,14 +1,14 @@
-package com.zb.leetcode.linked.simple;
+package com.zb.leetcode.simple._000;
 
 import com.zb.leetcode.linked.ListNode;
 
 /***
- *
+ *	21 合并两个有序链表
  * @author once
  * @date 2019/12/1 11:09
  *
  */
-public class Linked_21 {
+public class LeetCode_021 {
 
     /**
      * 将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
@@ -24,7 +24,7 @@ public class Linked_21 {
      */
 
     public static void main(String[] args) {
-        Linked_21 linked_21 = new Linked_21();
+        LeetCode_021 leetCode021 = new LeetCode_021();
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(2);
         l1.next.next = new ListNode(4);
@@ -33,7 +33,7 @@ public class Linked_21 {
         l2.next = new ListNode(3);
         l2.next.next = new ListNode(4);
 
-        ListNode listNode = linked_21.mergeTwoLists(l1, l2);
+        ListNode listNode = leetCode021.mergeTwoLists(l1, l2);
         while (listNode != null) {
             System.out.println(listNode.val);
             listNode = listNode.next;
