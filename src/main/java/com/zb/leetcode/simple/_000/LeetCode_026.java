@@ -58,7 +58,7 @@ public class LeetCode_026 {
         if (nums.length < 1) {
             return 0;
         }
-        //非重复想目标指针
+        //非重复项目标指针
         int targetIndex = 1;
         for (int i = 1; i < nums.length; i++) {
             //当前循环目标值与前一值不一样
