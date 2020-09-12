@@ -1,6 +1,4 @@
-package com.zb.leetcode.medium._000;
-
-import java.util.Arrays;
+package com.zb.leetcode.hard._000;
 
 /***
  * 4. 寻找两个正序数组的中位数
@@ -33,6 +31,7 @@ public class LeetCode_004 {
         int indexB = 0;
         while (true) {
             if (indexA == numsA.length) {
+                
                 return numsB[indexB + num - 1];
             }
             if (indexB == numsB.length) {
