@@ -1,6 +1,6 @@
 package com.zb.leetcode.simple._000;
 
-import com.zb.leetcode.linked.ListNode;
+import com.zb.leetcode.ListNode;
 
 /***
  *	21 合并两个有序链表
