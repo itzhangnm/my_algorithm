@@ -30,5 +30,5 @@ public class LeetCode_176 {
      */
 
 
-    String sql = "select salary as SecondHighestSalary from Employee order by salary desc limit 1,1";
+    String sql = "select ifnull((select salary from Employee order by salary desc limit 1,1),null) as SecondHighestSalary";
 }
