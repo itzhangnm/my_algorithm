@@ -39,5 +39,5 @@ public class LeetCode_175 {
      * 链接：https://leetcode-cn.com/problems/combine-two-tables
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
-    String sql = "";
+    String sql = "SELECT FirstName,LastName,City,State FROM Person p LEFT JOIN Address a ON p.PersonId = a.PersonId";
 }
