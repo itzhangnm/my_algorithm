@@ -44,20 +44,32 @@ public class LeetCode_235 {
      */
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null) {
-            return null;
+//        if (root == null) {
+//            return null;
+//        }
+//        if (root.val == p.val || root.val == q.val) {
+//            return root;
+//        }
+//        TreeNode leftNode = lowestCommonAncestor(root.left, p, q);
+//        TreeNode rightNode = lowestCommonAncestor(root.right, p, q);
+//        //值都是唯一,所以,左右都找到了,当前节点就是最近的
+//        if (leftNode != null && rightNode != null) {
+//            return root;
+//        } else if (leftNode != null || rightNode != null) {
+//            return leftNode != null ? leftNode : rightNode;
+//        }
+//        return null;
+
+        // 搜索树特性
+        TreeNode tmp = root;
+        while (true) {
+            if (tmp.val < p.val && tmp.val < q.val) {
+                tmp = tmp.right;
+            } else if (tmp.val > p.val && tmp.val > q.val) {
+                tmp = tmp.left;
+            }else {
+                return tmp;
+            }
         }
-        if (root.val == p.val || root.val == q.val) {
-            return root;
-        }
-        TreeNode leftNode = lowestCommonAncestor(root.left, p, q);
-        TreeNode rightNode = lowestCommonAncestor(root.right, p, q);
-        //值都是唯一,所以,左右都找到了,当前节点就是最近的
-        if (leftNode != null && rightNode != null) {
-            return root;
-        } else if (leftNode != null || rightNode != null) {
-            return leftNode != null ? leftNode : rightNode;
-        }
-        return null;
     }
 }
