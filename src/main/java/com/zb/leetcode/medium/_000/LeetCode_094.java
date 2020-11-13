@@ -13,8 +13,31 @@ import java.util.List;
 public class LeetCode_094 {
 
     public List<Integer> inorderTraversal(TreeNode root) {
+//        List<Integer> result = new ArrayList<>();
+//        inorderTraversal(root,result);
+//        return result;
+
         List<Integer> result = new ArrayList<>();
-        inorderTraversal(root,result);
+        TreeNode cur = root;
+        TreeNode morrisRight;
+        while (cur != null) {
+            morrisRight = cur.left;
+            if (morrisRight != null) {
+                while (morrisRight.right != null && morrisRight.right != cur) {
+                    morrisRight = morrisRight.right;
+                }
+                if (morrisRight.right == null) {
+                    morrisRight.right = cur;
+                    cur = cur.left;
+                    continue;
+                }else{
+                    morrisRight.right = null;
+                }
+
+            }
+            result.add(cur.val);
+            cur = cur.right;
+        }
         return result;
     }
 
