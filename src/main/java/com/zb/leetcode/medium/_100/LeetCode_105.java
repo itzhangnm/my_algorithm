@@ -61,7 +61,7 @@ public class LeetCode_105 {
 
     }
 
-    private TreeNode buildTree(int rootIndex, int[] preorder, int leftStart, int leftEnd, int[] inorder) {
+//    private TreeNode buildTree(int rootIndex, int[] preorder, int leftStart, int leftEnd, int[] inorder) {
 //        int curVal = preorder[rootIndex];
 //        TreeNode root = new TreeNode(curVal);
 //        int leftCount = 0;
@@ -78,5 +78,5 @@ public class LeetCode_105 {
 //            root.right = buildTree(rootIndex + leftCount + 1, preorder, rootIndex + leftStart + 1, leftEnd, inorder);
 //        }
 //        return root;
-    }
+//    }
 }
