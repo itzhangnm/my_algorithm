@@ -32,7 +32,7 @@ public class LeetCode_617 {
      * 	 5   4   7
      * 注意: 合并必须从两个树的根节点开始。
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/merge-two-binary-trees
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

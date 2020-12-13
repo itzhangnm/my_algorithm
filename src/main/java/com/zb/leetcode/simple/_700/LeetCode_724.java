@@ -32,7 +32,7 @@ public class LeetCode_724 {
      * nums 的长度范围为 [0, 10000]。
      * 任何一个 nums[i] 将会是一个范围在 [-1000, 1000]的整数。
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/find-pivot-index
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

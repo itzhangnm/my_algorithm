@@ -26,7 +26,7 @@ public class LeetCode_028 {
 
      对于本题而言，当 needle 是空字符串时我们应当返回 0 。这与C语言的 strstr() 以及 Java的 indexOf() 定义相符。
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/implement-strstr
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

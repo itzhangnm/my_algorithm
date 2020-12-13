@@ -38,7 +38,7 @@ public class LeetCode_101 {
 
      你可以运用递归和迭代两种方法解决这个问题吗？
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/symmetric-tree
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

@@ -22,7 +22,7 @@ public class LeetCode_643 {
      * 1 <= k <= n <= 30,000。
      * 所给数据范围 [-10,000，10,000]。
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/maximum-average-subarray-i
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

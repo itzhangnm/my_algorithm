@@ -51,7 +51,7 @@ public class LeetCode_142 {
      -105 <= Node.val <= 105
      pos 的值为 -1 或者链表中的一个有效索引
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/linked-list-cycle-ii
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

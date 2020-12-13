@@ -48,7 +48,7 @@ public class LeetCode_1544 {
      * 1 <= s.length <= 100
      * s 只包含小写和大写英文字母
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/make-the-string-great
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

@@ -50,7 +50,7 @@ public class LeetCode_914 {
      1 <= deck.length <= 10000
      0 <= deck[i] < 10000
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

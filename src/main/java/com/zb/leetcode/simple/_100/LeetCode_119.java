@@ -25,7 +25,7 @@ public class LeetCode_119 {
 
      你可以优化你的算法到 O(k) 空间复杂度吗？
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/pascals-triangle-ii
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

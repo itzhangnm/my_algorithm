@@ -30,7 +30,7 @@ public class LeetCode_067 {
      * 1 <= a.length, b.length <= 10^4
      * 字符串如果不是 "0" ，就都不含前导零。
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/add-binary
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

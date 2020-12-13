@@ -32,7 +32,7 @@ public class LeetCode_747 {
      nums 的长度范围在[1, 50].
      每个 nums[i] 的整数范围在 [0, 100].
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

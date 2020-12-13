@@ -32,7 +32,7 @@ public class LeetCode_509 {
      * 输出：3
      * 解释：F(4) = F(3) + F(2) = 2 + 1 = 3.
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/fibonacci-number
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

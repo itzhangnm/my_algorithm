@@ -28,7 +28,7 @@ public class LeetCode_876 {
      输出：此列表中的结点 4 (序列化形式：[4,5,6])
      由于该列表有两个中间结点，值分别为 3 和 4，我们返回第二个结点。
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/middle-of-the-linked-list
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

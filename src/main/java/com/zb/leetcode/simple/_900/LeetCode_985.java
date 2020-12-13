@@ -40,7 +40,7 @@ public class LeetCode_985 {
      * -10000 <= queries[i][0] <= 10000
      * 0 <= queries[i][1] < A.length
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

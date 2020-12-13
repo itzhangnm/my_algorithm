@@ -34,7 +34,7 @@ public class LeetCode_830 {
      * 输出: [[3,5],[6,9],[12,14]]
      * 说明:  1 <= S.length <= 1000
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/positions-of-large-groups
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

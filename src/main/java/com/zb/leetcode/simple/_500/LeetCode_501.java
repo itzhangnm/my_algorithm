@@ -33,7 +33,7 @@ public class LeetCode_501 {
 
      进阶：你可以不使用额外的空间吗？（假设由递归产生的隐式调用栈的开销不被计算在内）
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/find-mode-in-binary-search-tree
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

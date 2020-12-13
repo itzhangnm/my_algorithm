@@ -20,7 +20,7 @@ public class LeetCode_371 {
      输入: a = -2, b = 3
      输出: 1
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/sum-of-two-integers
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

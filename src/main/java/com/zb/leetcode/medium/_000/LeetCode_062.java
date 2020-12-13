@@ -40,7 +40,7 @@ public class LeetCode_062 {
      1 <= m, n <= 100
      题目数据保证答案小于等于 2 * 10 ^ 9
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/unique-paths
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

@@ -30,7 +30,7 @@ public class LeetCode_326 {
      进阶：
      你能不使用循环或者递归来完成本题吗？
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/power-of-three
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

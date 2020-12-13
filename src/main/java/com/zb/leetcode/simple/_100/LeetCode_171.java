@@ -36,7 +36,7 @@ public class LeetCode_171 {
      * 致谢：
      * 特别感谢 @ts 添加此问题并创建所有测试用例。
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/excel-sheet-column-number
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

@@ -48,7 +48,7 @@ public class LeetCode_039 {
      * candidate 中的每个元素都是独一无二的。
      * 1 <= target <= 500
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/combination-sum
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

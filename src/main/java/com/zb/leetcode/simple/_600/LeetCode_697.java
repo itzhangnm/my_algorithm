@@ -31,7 +31,7 @@ public class LeetCode_697 {
      nums.length 在1到50,000区间范围内。
      nums[i] 是一个在0到49,999范围内的整数。
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/degree-of-an-array
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

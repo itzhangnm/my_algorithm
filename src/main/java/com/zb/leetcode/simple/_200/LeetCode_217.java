@@ -26,7 +26,7 @@ public class LeetCode_217 {
      输入: [1,1,1,3,3,4,3,2,4,2]
      输出: true
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/contains-duplicate
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

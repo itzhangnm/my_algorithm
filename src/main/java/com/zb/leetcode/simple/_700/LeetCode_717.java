@@ -30,7 +30,7 @@ public class LeetCode_717 {
      1 <= len(bits) <= 1000.
      bits[i] 总是0 或 1.
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/1-bit-and-2-bit-characters
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

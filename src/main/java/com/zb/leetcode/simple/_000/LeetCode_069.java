@@ -26,7 +26,7 @@ public class LeetCode_069 {
      * 说明: 8 的平方根是 2.82842...,
      *      由于返回类型是整数，小数部分将被舍去。
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/sqrtx
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

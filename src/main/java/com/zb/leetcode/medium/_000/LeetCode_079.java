@@ -36,7 +36,7 @@ public class LeetCode_079 {
      * 1 <= board[i].length <= 200
      * 1 <= word.length <= 10^3
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/word-search
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

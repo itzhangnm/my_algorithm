@@ -56,7 +56,7 @@ public class LeetCode_1441 {
      * 1 <= n <= 100
      * target 是严格递增的
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/build-an-array-with-stack-operations
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

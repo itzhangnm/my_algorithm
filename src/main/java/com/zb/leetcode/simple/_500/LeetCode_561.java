@@ -24,7 +24,7 @@ public class LeetCode_561 {
      * n 是正整数,范围在 [1, 10000].
      * 数组中的元素范围在 [-10000, 10000].
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/array-partition-i
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      * @param args

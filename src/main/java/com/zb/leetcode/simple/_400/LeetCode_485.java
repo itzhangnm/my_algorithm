@@ -20,7 +20,7 @@ public class LeetCode_485 {
      * 输入的数组只包含 0 和1。
      * 输入数组的长度是正整数，且不超过 10,000。
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/max-consecutive-ones
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

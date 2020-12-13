@@ -25,7 +25,7 @@ public class LeetCode_034 {
      * 输入: nums = [5,7,7,8,8,10], target = 6
      * 输出: [-1,-1]
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

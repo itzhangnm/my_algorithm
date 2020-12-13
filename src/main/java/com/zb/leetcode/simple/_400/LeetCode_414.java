@@ -33,7 +33,7 @@ public class LeetCode_414 {
      * 解释: 注意，要求返回第三大的数，是指第三大且唯一出现的数。
      * 存在两个值为2的数，它们都排第二。
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/third-maximum-number
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

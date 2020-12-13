@@ -22,7 +22,7 @@ public class LeetCode_665 {
      解释: 你不能在只改变一个元素的情况下将其变为非递减数列。
      说明:  n 的范围为 [1, 10,000]。
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/non-decreasing-array
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

@@ -26,7 +26,7 @@ public class LeetCode_189 {
      * 向右旋转 1 步: [99,-1,-100,3]
      * 向右旋转 2 步: [3,99,-1,-100]
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/rotate-array
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

@@ -47,7 +47,7 @@ public class LeetCode_621 {
      * tasks[i] 是大写英文字母
      * n 的取值范围为 [0, 100]
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/task-scheduler
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

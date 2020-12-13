@@ -28,7 +28,7 @@ public class LeetCode_543 {
      *
      * 注意：两结点之间的路径长度是以它们之间边的数目表示。
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/diameter-of-binary-tree
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

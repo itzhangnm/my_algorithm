@@ -48,7 +48,7 @@ public class LeetCode_999 {
      * board[i][j] 可以是 'R'，'.'，'B' 或 'p'
      * 只有一个格子上存在 board[i][j] == 'R'
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/available-captures-for-rook
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

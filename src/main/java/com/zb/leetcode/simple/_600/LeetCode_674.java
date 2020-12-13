@@ -21,7 +21,7 @@ public class LeetCode_674 {
      * 解释: 最长连续递增序列是 [2], 长度为1。
      * 注意：数组长度不会超过10000。
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

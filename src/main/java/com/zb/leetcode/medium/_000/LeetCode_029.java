@@ -35,7 +35,7 @@ public class LeetCode_029 {
      * 除数不为 0。
      * 假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−2^31,  2^31 − 1]。本题中，如果除法结果溢出，则返回 2^31 − 1。
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/divide-two-integers
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

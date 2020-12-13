@@ -25,7 +25,7 @@ public class LeetCode_404 {
      *
      * 通过次数59,979提交次数106,803
      *
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/sum-of-left-leaves
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

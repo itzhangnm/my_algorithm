@@ -25,7 +25,7 @@ public class LeetCode_017 {
      * 输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
      * 说明:
      * <p>
-     * 来源：力扣（LeetCode）
+     * 来源：力扣（LeetCode_148）
      * 链接：https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */

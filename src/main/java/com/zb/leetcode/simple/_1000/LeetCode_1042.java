@@ -35,7 +35,7 @@ public class LeetCode_1042 {
      输入：N = 4, paths = [[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]
      输出：[1,2,3,4]
 
-     来源：力扣（LeetCode）
+     来源：力扣（LeetCode_148）
      链接：https://leetcode-cn.com/problems/flower-planting-with-no-adjacent
      著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      提示：
