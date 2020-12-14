@@ -40,36 +40,29 @@ class LRUCache {
             return -1;
         }
         int lastCurr = hash[key];
+        move(key, lastCurr);
+        return hashVal[key];
+    }
+
+    private void move(int key, int lastCurr) {
         for (int i = lastCurr + 1; i < curr; i++) {
             hash[cache[i]]--;
             cache[i - 1] = cache[i];
         }
         hash[key] = curr - 1;
         cache[curr - 1] = key;
-
-        return hashVal[key];
     }
 
     public void put(int key, int value) {
         if (hash[key] != -1) {
             int lastCurr = hash[key];
-            for (int i = lastCurr + 1; i < curr; i++) {
-                hash[cache[i]]--;
-                cache[i - 1] = cache[i];
-            }
-            hash[key] = curr - 1;
-            cache[curr - 1] = key;
+            move(key, lastCurr);
             hashVal[key] = value;
         } else {
             if (flag) {
                 int delKey = cache[0];
                 hash[delKey] = -1;
-                for (int i = 1; i < curr; i++) {
-                    hash[cache[i]] = i -1;
-                    cache[i - 1] = cache[i];
-                }
-                hash[key] = curr - 1;
-                cache[curr - 1] = key;
+                move(key,0);
                 hashVal[key] = value;
             } else {
                 hash[key] = curr;
