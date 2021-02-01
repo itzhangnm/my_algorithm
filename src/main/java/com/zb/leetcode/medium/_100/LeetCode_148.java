@@ -1,7 +1,8 @@
 package com.zb.leetcode.medium._100;
 
-import com.alibaba.fastjson.JSON;
 import com.zb.leetcode.ListNode;
+
+import java.util.ArrayList;
 
 /***
  * 148. 排序链表
@@ -44,14 +45,7 @@ public class LeetCode_148 {
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     public static void main(String[] args) {
-        LeetCode_148 leetCode_148 = new LeetCode_148();
-        ListNode head = new ListNode(4);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(1);
-        head.next.next.next = new ListNode(3);
-        ListNode listNode = leetCode_148.sortList(head);
-        System.out.println(JSON.toJSONString(listNode));
-
+new ArrayList<>().stream().skip()
     }
 
     public ListNode sortList(ListNode head) {
