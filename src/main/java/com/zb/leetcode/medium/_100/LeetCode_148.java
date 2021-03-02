@@ -2,8 +2,6 @@ package com.zb.leetcode.medium._100;
 
 import com.zb.leetcode.ListNode;
 
-import java.util.ArrayList;
-
 /***
  * 148. 排序链表
  * @author once
@@ -45,7 +43,7 @@ public class LeetCode_148 {
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     public static void main(String[] args) {
-new ArrayList<>().stream().skip()
+//        new ArrayList<>().stream().skip();
     }
 
     public ListNode sortList(ListNode head) {

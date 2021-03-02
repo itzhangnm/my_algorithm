@@ -65,18 +65,18 @@ public class LeetCode_997 {
         System.out.println(leetCode_997.findJudge(4,new int[][]{{1,3},{1,4},{2,3},{2,4},{4,3}}));
     }
     public int findJudge(int N, int[][] trust) {
-//        int[][] figure = new int[N+1][N+1];
+//        int[][] graph = new int[N+1][N+1];
 //        for (int i = 0; i < trust.length; i++) {
-//            figure[trust[i][0]][trust[i][1]] = 1;
+//            graph[trust[i][0]][trust[i][1]] = 1;
 //        }
-//        bk:for (int i = 1; i < figure.length; i++) {
-//            for (int j = 1; j < figure.length; j++) {
-//                if (figure[i][j] == 1) {
+//        bk:for (int i = 1; i < graph.length; i++) {
+//            for (int j = 1; j < graph.length; j++) {
+//                if (graph[i][j] == 1) {
 //                    continue bk;
 //                }
 //            }
-//            for (int j = 1; j < figure.length; j++) {
-//                if (figure[j][i] == 0 && j != i) {
+//            for (int j = 1; j < graph.length; j++) {
+//                if (graph[j][i] == 0 && j != i) {
 //                    continue bk;
 //                }
 //            }
